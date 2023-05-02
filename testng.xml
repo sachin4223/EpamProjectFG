@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="test1">
+        <classes>
+            <class name="org.example.WithoutIdPass"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test2">
+        <classes>
+            <class name="org.example.IncorrectIdPass"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test3">
+        <classes>
+            <class name="org.example.AmazonEmail"></class>
+        </classes>
+    </test>
+
+
+</suite>
